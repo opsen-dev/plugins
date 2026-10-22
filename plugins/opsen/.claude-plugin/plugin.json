@@ -1,0 +1,19 @@
+{
+  "name": "opsen",
+  "displayName": "opsen",
+  "version": "1.0.0",
+  "description": "Ask opsen what your engineering stack costs and wastes, and fix the waste in the repository you are in.",
+  "author": { "name": "opsen", "email": "support@opsen.dev", "url": "https://opsen.dev" },
+  "homepage": "https://opsen.dev/docs/mcp",
+  "repository": "https://github.com/opsen-dev/plugins",
+  "license": "MIT",
+  "keywords": ["finops", "ci", "github-actions", "copilot", "spend", "mcp"],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "opsen API key",
+      "description": "Create one at opsen.dev, Settings → API keys and MCP. Starts with opsen_sk_.",
+      "sensitive": true
+    }
+  }
+}

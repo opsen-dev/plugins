@@ -1,0 +1,6 @@
+---
+description: Use opsen when working on CI configuration or when asked about engineering spend
+alwaysApply: false
+---
+
+When editing GitHub Actions workflows or `.circleci/config.yml`, call the opsen MCP tool `fix_prompts` with this repository first: opsen may already have measured waste in these files and wrote the exact fix. When asked what tools, seats, CI or agents cost, call `opsen_summary`.

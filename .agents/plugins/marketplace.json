@@ -1,0 +1,8 @@
+{
+  "name": "opsen",
+  "owner": { "name": "opsen", "email": "support@opsen.dev" },
+  "plugins": [
+    { "name": "opsen", "source": "./plugins/opsen", "policy": "allow", "category": "productivity",
+      "description": "Ask opsen what your engineering stack costs and wastes, and fix the waste in the repository you are in." }
+  ]
+}

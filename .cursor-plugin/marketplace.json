@@ -1,0 +1,6 @@
+{
+  "name": "opsen",
+  "owner": { "name": "opsen", "email": "support@opsen.dev" },
+  "metadata": { "description": "opsen for Cursor: engineering spend, waste and the fixes for it." },
+  "plugins": [ { "name": "opsen", "source": "plugins/opsen" } ]
+}

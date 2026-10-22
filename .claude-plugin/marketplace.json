@@ -1,0 +1,14 @@
+{
+  "name": "opsen",
+  "owner": { "name": "opsen", "email": "support@opsen.dev", "url": "https://opsen.dev" },
+  "metadata": { "description": "opsen for coding agents: engineering spend, waste and the fixes for it, from your editor." },
+  "plugins": [
+    {
+      "name": "opsen",
+      "source": "./plugins/opsen",
+      "description": "Ask opsen what your engineering stack costs and wastes, and fix the waste in the repository you are in.",
+      "category": "productivity",
+      "homepage": "https://opsen.dev/docs/mcp"
+    }
+  ]
+}

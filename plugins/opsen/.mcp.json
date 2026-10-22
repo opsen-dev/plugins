@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "opsen": {
+      "type": "http",
+      "url": "https://opsen.dev/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.api_key}" }
+    }
+  }
+}

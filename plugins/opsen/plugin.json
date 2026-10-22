@@ -1,0 +1,10 @@
+{
+  "name": "opsen",
+  "version": "1.0.0",
+  "description": "Ask opsen what your engineering stack costs and wastes, and fix the waste in the repository you are in.",
+  "author": { "name": "opsen", "email": "support@opsen.dev" },
+  "homepage": "https://opsen.dev/docs/mcp",
+  "repository": "https://github.com/opsen-dev/plugins",
+  "license": "MIT",
+  "keywords": ["finops", "ci", "github-actions", "spend", "mcp"]
+}

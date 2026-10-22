@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "opsen": {
+      "url": "https://opsen.dev/mcp",
+      "headers": { "Authorization": "Bearer ${env:OPSEN_API_KEY}" },
+      "bearer_token_env_var": "OPSEN_API_KEY"
+    }
+  }
+}
